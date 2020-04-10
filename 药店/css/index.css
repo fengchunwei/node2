@@ -1,0 +1,252 @@
+
+/* 顶部 */
+.header {
+    width: 100%;
+    position: fixed;
+    z-index: 111;
+    top: 0;
+    left: 0;
+}
+.headerTop {
+    width: 100%;
+    height: 45px;
+    background: #06c1ae;
+    text-align: center;
+}
+.headerTop .head1 {
+    width: 60%;
+    line-height: 45px;
+    margin: auto;
+    height: 45px;
+}
+.headerTop span {
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 16px;
+}
+.btn-default {
+    margin-top: 5px;
+    color: #333;
+    background-color: #06c1ae !important;
+    border-color:  #06c1ae !important;
+}
+.dropdown-menu {
+    margin-right: 100px;
+}
+.meau1 {
+    width: 835%;
+    height: 308px;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    left: -610%;
+    top: 45px;
+    display: none;
+}
+.meau1 li {
+    list-style: none;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    padding: 10px;
+}
+.glyphicon-menu-hamburger:before {
+    content: "\e236";
+    color: white;
+}
+/* 轮播 swiper */
+html, body {
+    position: relative;
+    height: 100%;
+  }
+  body {
+    background: rgb(255, 255, 255);
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+  }
+  .swiper-container {
+    width: 100%;
+    margin-top: 45px;
+    height: 150px;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+.swiper-slide img{
+    width: 100%;
+    height: 100%;
+    
+}
+  /* 内容 */
+.content{
+    width:100%; 
+    padding: 10px;
+}
+.content ul li {
+    list-style: none;
+    float: left;
+    width: 23%;
+    margin-left: 1.5%;
+    background: #ffffff;
+    margin-top: 9px;
+    border-radius: 10px;
+}
+.content ul li span {
+    font-size: 12px;
+    color: rgb(53, 52, 52);
+}
+/* 搜索框 */
+.search {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+.search .boox1 {
+    width: 90%;
+    margin: auto;
+    height: 34px;
+    margin-top: 10px;
+    border-radius: 30px;
+    border: 1px solid rgb(204, 198, 198);
+}
+/* 产品展示  */
+.show span {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    line-height: 42px;
+    text-align: center;
+    font-size: 14px;
+    color: #06c1ae;
+    border-bottom: 2px solid #06c1ae;
+}
+/* 商品 */
+.contenter{
+    width:100%; 
+    padding: 0 10px;
+}
+.contenter ul li {
+    list-style: none;
+    float: left;
+    width: 48%;
+    margin-left: 1.5%;
+    background: #ffffff;
+    margin-top: 9px;
+    border-radius: 10px;
+    margin-bottom: 6%;
+}
+.contenter ul li img {
+    width: 100%;
+    height: 150%;
+}
+.contenter ul li span {
+    font-size: 14px;
+    color: rgb(53, 52, 52);
+}
+.nav-tabs {
+    width: 100%;
+}
+.nav-tabs li {
+    width: 25% !important;
+    font-size: 12px;
+}
+.nav-tabs li:nth-of-type(1) {
+    float: left;
+}
+.nav-tabs li:nth-of-type(2) {
+    float: left;
+    margin-left: 15%;
+    border: none !important;
+}
+.nav-tabs li:nth-of-type(3) {
+    float: right;
+}
+/* 商品介绍 */
+.tell {
+    width: 100%;
+    height: 40%;
+}
+.tell ul li {
+    margin-top: 5%;
+    font-size: 0.585366rem;
+}
+
+/* 新闻中心 */
+.showleft span {
+    display:block;
+    width: 25%;
+    height: 100%;
+    line-height: 42px;
+    text-align: center;
+    font-size: 14px;
+    color: #06c1ae;
+    float: left;
+    border-bottom: 2px solid #06c1ae;
+}
+.showright {
+    width: 10%;
+    height: 100%;
+    float: right;
+    line-height: 250%;
+    text-align: center;
+}
+.menu ul li{
+    width: 100%;
+    
+}
+
+
+
+
+
+/* 底部浮动 */
+.footer {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    z-index: 1;
+    background: #06c1ae;
+    bottom: 0;
+}
+.nav1 ul li {
+    text-align: center;  
+    width: 25%;
+    float: left;
+    margin-top: -8px;
+    position: relative;
+}
+.nav1 ul li p {
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+/* 按钮 */
+.btnMeau {
+    width: 44px;
+    height: 34px;
+    position: fixed;
+    left: 6%;
+    bottom: 9%;
+    z-index: 111;
+    
+}
